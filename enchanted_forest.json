@@ -1,0 +1,102 @@
+{
+    "data": {
+      "code": 200,
+      "message": "Success",
+      "data": [{
+            "start": {
+              "text": ", You find yourself in a dark forest. What do you do?",
+              "options": [
+                { "text": "Go left", "nextScene": "leftPath" },
+                { "text": "Go right", "nextScene": "rightPath" }
+              ]
+            },
+            "leftPath": {
+              "text": "You follow the left path and discover a mysterious pond surrounded by fireflies. What's your next move?",
+              "options": [
+                { "text": "Take a sip from the pond", "nextScene": "sipPondWater" },
+                { "text": "Continue exploring the left path", "nextScene": "continueLeftPath" }
+              ]
+            },
+            "sipPondWater": {
+              "text": "The pond water has magical properties! You feel rejuvenated and gain a mysterious power.",
+              "options": [
+                { "text": "Head back to the main path", "nextScene": "start" },
+                { "text": "Explore the area around the pond", "nextScene": "explorePondArea" }
+              ]
+            },
+            "explorePondArea": {
+              "text": "You find a hidden cave behind the pond. Inside, you discover ancient runes and a magical artifact.",
+              "options": [
+                { "text": "Take the magical artifact", "nextScene": "takeArtifact" },
+                { "text": "Leave the cave and head back to the main path", "nextScene": "start" }
+              ]
+            },
+            "takeArtifact": {
+              "text": "As you take the artifact, the cave begins to tremble. You narrowly escape as the entrance collapses behind you.",
+              "options": [
+                { "text": "Continue on the main path", "nextScene": "start" }
+              ]
+            },
+            "continueLeftPath": {
+              "text": "The left path leads you to a clearing where you find a group of friendly forest creatures having a celebration.",
+              "options": [
+                { "text": "Join the celebration", "nextScene": "joinCelebration" },
+                { "text": "Politely decline and continue your journey", "nextScene": "start" }
+              ]
+            },
+            "joinCelebration": {
+              "text": "You join the celebration and make new friends. They offer guidance for your quest and share valuable resources.",
+              "options": [
+                { "text": "Express gratitude and continue your journey", "nextScene": "start" }
+              ]
+            },
+            "rightPath": {
+              "text": "You discover a hidden treasure. What's your next move?",
+              "options": [
+                { "text": "Open the treasure chest", "nextScene": "openTreasure" },
+                { "text": "Leave it and continue exploring", "nextScene": "continueExploring" }
+              ]
+            },
+            "openTreasure": {
+              "text": "As you open the treasure chest, a burst of light reveals ancient artifacts and a map to the heart of the enchanted forest.",
+              "options": [
+                { "text": "Follow the map to the heart of the enchanted forest", "nextScene": "heartOfForest" },
+                { "text": "Close the chest and continue exploring", "nextScene": "continueExploring" }
+              ]
+            },
+            "heartOfForest": {
+              "text": "You reach the heart of the enchanted forest, where ancient magic emanates. A wise spirit appears, offering guidance for your quest.",
+              "options": [
+                { "text": "Listen to the spirit's guidance", "nextScene": "listenToSpirit" },
+                { "text": "Explore the heart of the forest on your own", "nextScene": "exploreOnYourOwn" }
+              ]
+            },
+            "listenToSpirit": {
+              "text": "The spirit shares ancient wisdom and reveals a hidden portal leading to a mystical realm. Your adventure continues in the unknown.",
+              "options": [
+                { "text": "Enter the portal and embrace the unknown", "nextScene": "unknownRealm" },
+                { "text": "Choose a different path and continue exploring the enchanted forest", "nextScene": "continueExploring" }
+              ]
+            },
+            "unknownRealm": {
+              "text": "As you enter the portal, the world transforms around you. You find yourself in a realm of magic and mysteries, ready for new adventures.",
+              "options": [
+                { "text": "Embark on new quests in the unknown realm", "nextScene": "start" }
+              ]
+            },
+            "continueExploring": {
+              "text": "You decide to leave the treasure behind and continue exploring the enchanted forest.",
+              "options": [
+                { "text": "Explore the left path", "nextScene": "leftPath" },
+                { "text": "Explore the right path", "nextScene": "rightPath" }
+              ]
+            },
+            "exploreOnYourOwn": {
+              "text": "As you have explored you got tired.",
+              "options": [
+                { "text": "Continue on the main path", "nextScene": "start" }
+              ]
+            }
+          }]
+    }
+  }
